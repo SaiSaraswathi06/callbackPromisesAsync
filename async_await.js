@@ -18,7 +18,7 @@ function getUserDetails(id) {
         resolve({ userroll: "678" });
     });
 }
-
+console.log("testing");
 function getUserSubjects(userRoll) {
     return new Promise((resolve) => {
         console.log("getting user subjects by roll number", userRoll); // API call simulation
